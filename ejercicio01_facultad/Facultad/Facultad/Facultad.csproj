@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAlumnos.Designer.cs">
+      <DependentUpon>formAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formEmpleados.Designer.cs">
+      <DependentUpon>formEmpleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entidades\Alumno.cs" />
     <Compile Include="Entidades\Bedel.cs" />
     <Compile Include="Entidades\Facultad.cs" />
@@ -53,16 +65,40 @@
     <Compile Include="Entidades\Directivo.cs" />
     <Compile Include="Entidades\Empleado.cs" />
     <Compile Include="Entidades\Persona.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearUsr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearUsr.Designer.cs">
+      <DependentUpon>CrearUsr.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="formAlumnos.resx">
+      <DependentUpon>formAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formEmpleados.resx">
+      <DependentUpon>formEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearUsr.resx">
+      <DependentUpon>CrearUsr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

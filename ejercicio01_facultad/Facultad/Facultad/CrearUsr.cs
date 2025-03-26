@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace Facultad
 {
-    public partial class Form1 : Form
+    public partial class CrearUsr : Form
     {
-        public Form1()
+        public CrearUsr()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login f1 = new Login();
+            f1.ShowDialog();
+
         }
     }
 }
