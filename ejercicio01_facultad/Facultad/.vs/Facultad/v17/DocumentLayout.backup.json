@@ -7,28 +7,8 @@
       "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\bedel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\entidades\\facultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\facultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\entidades\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\entidades\\directivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\directivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\entidades\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Facultad.cs",
-              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Facultad.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Facultad.cs",
-              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Facultad.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Facultad.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T11:57:12.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Alumno.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Alumno.cs",
-              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Alumno.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Alumno.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T12:02:47.622Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -74,62 +28,22 @@
               "RelativeDocumentMoniker": "Facultad\\Entidades\\Bedel.cs",
               "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Bedel.cs",
               "RelativeToolTip": "Facultad\\Entidades\\Bedel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T11:54:05.115Z",
+              "WhenOpened": "2025-03-26T14:12:39.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Docente.cs",
-              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Docente.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Docente.cs",
-              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Docente.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Docente.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Form1.cs",
+              "RelativeDocumentMoniker": "Facultad\\Form1.cs",
+              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Form1.cs [Design]",
+              "RelativeToolTip": "Facultad\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T11:52:29.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Directivo.cs",
-              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Directivo.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Directivo.cs",
-              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Directivo.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Directivo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T11:50:24.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Empleado.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Empleado.cs",
-              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Empleado.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Empleado.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T11:36:05.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Persona.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Persona.cs",
-              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Entidades\\Persona.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Persona.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T18:58:42.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T14:11:50.251Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

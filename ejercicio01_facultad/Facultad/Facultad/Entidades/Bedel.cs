@@ -16,7 +16,7 @@ namespace Facultad.Entidades
 
 
         //Métodos
-        public void GetNombreCompleto()
+        protected override void GetNombreCompleto()
         {
 
         }

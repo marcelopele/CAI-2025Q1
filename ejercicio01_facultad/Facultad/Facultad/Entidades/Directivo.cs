@@ -10,12 +10,12 @@ namespace Facultad.Entidades
     {
 
         //Métodos
-        public void GetNombreCompleto()
+        protected override void GetNombreCompleto()
         {
 
         }
 
-        public override string ListarEmpleados(bool listarConId)
+        protected override string ListarEmpleados(bool listarConId)
         {
             throw new NotImplementedException();
         }

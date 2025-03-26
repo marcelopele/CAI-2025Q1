@@ -1,0 +1,5 @@
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.AssemblyReference.cache
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.Properties.Resources.resources
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.GenerateResource.cache
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.CoreCompileInputs.cache
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.Form1.resources
