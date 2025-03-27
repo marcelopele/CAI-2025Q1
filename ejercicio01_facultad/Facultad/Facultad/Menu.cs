@@ -23,5 +23,19 @@ namespace Facultad
             Login f1 = new Login();
             f1.ShowDialog();
         }
+
+        private void btnAlumnos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            formAlumnos fa = new formAlumnos();
+            fa.ShowDialog();
+        }
+
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            formEmpleados fe = new formEmpleados();
+            fe.ShowDialog();
+        }
     }
 }

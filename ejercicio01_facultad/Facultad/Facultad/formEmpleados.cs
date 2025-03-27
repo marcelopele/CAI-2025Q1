@@ -16,5 +16,12 @@ namespace Facultad
         {
             InitializeComponent();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu fm = new Menu();
+            fm.ShowDialog();
+        }
     }
 }

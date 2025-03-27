@@ -2,11 +2,13 @@ C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CA
 C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.Properties.Resources.resources
 C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.GenerateResource.cache
 C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.csproj.CoreCompileInputs.cache
-C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.Form1.resources
 C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\bin\Debug\Facultad.exe.config
 C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\bin\Debug\Facultad.exe
 C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\bin\Debug\Facultad.pdb
-C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.Form2.resources
-C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.Form3.resources
 C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.exe
 C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.pdb
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.formAlumnos.resources
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.formEmpleados.resources
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.Login.resources
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.Menu.resources
+C:\Users\Moto\OneDrive\Documentos\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad\Facultad\Facultad\obj\Debug\Facultad.CrearUsr.resources

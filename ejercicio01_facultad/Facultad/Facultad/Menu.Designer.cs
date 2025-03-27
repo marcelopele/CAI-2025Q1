@@ -41,6 +41,7 @@
             this.btnAlumnos.TabIndex = 0;
             this.btnAlumnos.Text = "Alumnos";
             this.btnAlumnos.UseVisualStyleBackColor = true;
+            this.btnAlumnos.Click += new System.EventHandler(this.btnAlumnos_Click);
             // 
             // btnEmpleados
             // 
@@ -50,6 +51,7 @@
             this.btnEmpleados.TabIndex = 1;
             this.btnEmpleados.Text = "Empleados";
             this.btnEmpleados.UseVisualStyleBackColor = true;
+            this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
             // button3
             // 
@@ -61,7 +63,7 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // MenuInicio
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -69,7 +71,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnEmpleados);
             this.Controls.Add(this.btnAlumnos);
-            this.Name = "MenuInicio";
+            this.Name = "Menu";
             this.Text = "Menu Inicio";
             this.ResumeLayout(false);
 

@@ -42,6 +42,7 @@
             this.btnCredencial = new System.Windows.Forms.Button();
             this.lblListaAlumnos = new System.Windows.Forms.Label();
             this.btnNombreCompleto = new System.Windows.Forms.Button();
+            this.btnVolverMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dateFhNacimiento
@@ -61,7 +62,7 @@
             // 
             // btnSaludo
             // 
-            this.btnSaludo.Location = new System.Drawing.Point(424, 70);
+            this.btnSaludo.Location = new System.Drawing.Point(424, 99);
             this.btnSaludo.Name = "btnSaludo";
             this.btnSaludo.Size = new System.Drawing.Size(107, 23);
             this.btnSaludo.TabIndex = 7;
@@ -127,7 +128,7 @@
             // 
             // btnCredencial
             // 
-            this.btnCredencial.Location = new System.Drawing.Point(424, 12);
+            this.btnCredencial.Location = new System.Drawing.Point(424, 41);
             this.btnCredencial.Name = "btnCredencial";
             this.btnCredencial.Size = new System.Drawing.Size(107, 23);
             this.btnCredencial.TabIndex = 15;
@@ -145,18 +146,29 @@
             // 
             // btnNombreCompleto
             // 
-            this.btnNombreCompleto.Location = new System.Drawing.Point(424, 41);
+            this.btnNombreCompleto.Location = new System.Drawing.Point(424, 70);
             this.btnNombreCompleto.Name = "btnNombreCompleto";
             this.btnNombreCompleto.Size = new System.Drawing.Size(107, 23);
             this.btnNombreCompleto.TabIndex = 17;
             this.btnNombreCompleto.Text = "Nombre Completo";
             this.btnNombreCompleto.UseVisualStyleBackColor = true;
             // 
+            // btnVolverMenu
+            // 
+            this.btnVolverMenu.Location = new System.Drawing.Point(424, 12);
+            this.btnVolverMenu.Name = "btnVolverMenu";
+            this.btnVolverMenu.Size = new System.Drawing.Size(107, 23);
+            this.btnVolverMenu.TabIndex = 18;
+            this.btnVolverMenu.Text = "Volver al Menú";
+            this.btnVolverMenu.UseVisualStyleBackColor = true;
+            this.btnVolverMenu.Click += new System.EventHandler(this.btnVolverMenu_Click);
+            // 
             // formAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 450);
+            this.Controls.Add(this.btnVolverMenu);
             this.Controls.Add(this.btnNombreCompleto);
             this.Controls.Add(this.lblListaAlumnos);
             this.Controls.Add(this.btnCredencial);
@@ -193,5 +205,6 @@
         private System.Windows.Forms.Button btnCredencial;
         private System.Windows.Forms.Label lblListaAlumnos;
         private System.Windows.Forms.Button btnNombreCompleto;
+        private System.Windows.Forms.Button btnVolverMenu;
     }
 }

@@ -45,10 +45,11 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.rdoDirectivo = new System.Windows.Forms.RadioButton();
             this.grpListar = new System.Windows.Forms.GroupBox();
-            this.rdoDocente = new System.Windows.Forms.RadioButton();
-            this.rdoBedel = new System.Windows.Forms.RadioButton();
-            this.btnConId = new System.Windows.Forms.Button();
             this.btnSinId = new System.Windows.Forms.Button();
+            this.btnConId = new System.Windows.Forms.Button();
+            this.rdoBedel = new System.Windows.Forms.RadioButton();
+            this.rdoDocente = new System.Windows.Forms.RadioButton();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.grpListar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,7 +136,7 @@
             // 
             // btnNombreCompleto
             // 
-            this.btnNombreCompleto.Location = new System.Drawing.Point(424, 41);
+            this.btnNombreCompleto.Location = new System.Drawing.Point(425, 59);
             this.btnNombreCompleto.Name = "btnNombreCompleto";
             this.btnNombreCompleto.Size = new System.Drawing.Size(107, 23);
             this.btnNombreCompleto.TabIndex = 31;
@@ -144,7 +145,7 @@
             // 
             // btnCredencial
             // 
-            this.btnCredencial.Location = new System.Drawing.Point(424, 12);
+            this.btnCredencial.Location = new System.Drawing.Point(425, 30);
             this.btnCredencial.Name = "btnCredencial";
             this.btnCredencial.Size = new System.Drawing.Size(107, 23);
             this.btnCredencial.TabIndex = 30;
@@ -153,7 +154,7 @@
             // 
             // btnSaludo
             // 
-            this.btnSaludo.Location = new System.Drawing.Point(424, 70);
+            this.btnSaludo.Location = new System.Drawing.Point(425, 88);
             this.btnSaludo.Name = "btnSaludo";
             this.btnSaludo.Size = new System.Drawing.Size(107, 23);
             this.btnSaludo.TabIndex = 29;
@@ -194,23 +195,30 @@
             this.grpListar.Controls.Add(this.rdoBedel);
             this.grpListar.Controls.Add(this.rdoDocente);
             this.grpListar.Controls.Add(this.rdoDirectivo);
-            this.grpListar.Location = new System.Drawing.Point(417, 104);
+            this.grpListar.Location = new System.Drawing.Point(418, 110);
             this.grpListar.Name = "grpListar";
             this.grpListar.Size = new System.Drawing.Size(113, 92);
             this.grpListar.TabIndex = 35;
             this.grpListar.TabStop = false;
             this.grpListar.Text = "Listar";
             // 
-            // rdoDocente
+            // btnSinId
             // 
-            this.rdoDocente.AutoSize = true;
-            this.rdoDocente.Location = new System.Drawing.Point(6, 29);
-            this.rdoDocente.Name = "rdoDocente";
-            this.rdoDocente.Size = new System.Drawing.Size(66, 17);
-            this.rdoDocente.TabIndex = 35;
-            this.rdoDocente.TabStop = true;
-            this.rdoDocente.Text = "Docente";
-            this.rdoDocente.UseVisualStyleBackColor = true;
+            this.btnSinId.Location = new System.Drawing.Point(54, 63);
+            this.btnSinId.Name = "btnSinId";
+            this.btnSinId.Size = new System.Drawing.Size(53, 23);
+            this.btnSinId.TabIndex = 38;
+            this.btnSinId.Text = "Sin Id";
+            this.btnSinId.UseVisualStyleBackColor = true;
+            // 
+            // btnConId
+            // 
+            this.btnConId.Location = new System.Drawing.Point(0, 63);
+            this.btnConId.Name = "btnConId";
+            this.btnConId.Size = new System.Drawing.Size(53, 23);
+            this.btnConId.TabIndex = 37;
+            this.btnConId.Text = "Con Id";
+            this.btnConId.UseVisualStyleBackColor = true;
             // 
             // rdoBedel
             // 
@@ -223,29 +231,33 @@
             this.rdoBedel.Text = "Bedel";
             this.rdoBedel.UseVisualStyleBackColor = true;
             // 
-            // btnConId
+            // rdoDocente
             // 
-            this.btnConId.Location = new System.Drawing.Point(0, 63);
-            this.btnConId.Name = "btnConId";
-            this.btnConId.Size = new System.Drawing.Size(53, 23);
-            this.btnConId.TabIndex = 37;
-            this.btnConId.Text = "Con Id";
-            this.btnConId.UseVisualStyleBackColor = true;
+            this.rdoDocente.AutoSize = true;
+            this.rdoDocente.Location = new System.Drawing.Point(6, 29);
+            this.rdoDocente.Name = "rdoDocente";
+            this.rdoDocente.Size = new System.Drawing.Size(66, 17);
+            this.rdoDocente.TabIndex = 35;
+            this.rdoDocente.TabStop = true;
+            this.rdoDocente.Text = "Docente";
+            this.rdoDocente.UseVisualStyleBackColor = true;
             // 
-            // btnSinId
+            // btnSalir
             // 
-            this.btnSinId.Location = new System.Drawing.Point(54, 63);
-            this.btnSinId.Name = "btnSinId";
-            this.btnSinId.Size = new System.Drawing.Size(53, 23);
-            this.btnSinId.TabIndex = 38;
-            this.btnSinId.Text = "Sin Id";
-            this.btnSinId.UseVisualStyleBackColor = true;
+            this.btnSalir.Location = new System.Drawing.Point(424, 1);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(107, 23);
+            this.btnSalir.TabIndex = 36;
+            this.btnSalir.Text = "Volver al Menú";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // formEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 450);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.grpListar);
             this.Controls.Add(this.lblFhIngreso);
             this.Controls.Add(this.dateTimePicker1);
@@ -294,5 +306,6 @@
         private System.Windows.Forms.RadioButton rdoDocente;
         private System.Windows.Forms.Button btnSinId;
         private System.Windows.Forms.Button btnConId;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
