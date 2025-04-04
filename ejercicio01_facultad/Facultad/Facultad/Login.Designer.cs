@@ -34,6 +34,9 @@
             this.txtClave = new System.Windows.Forms.TextBox();
             this.lblClave = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
+            this.errUsr = new System.Windows.Forms.Label();
+            this.errPwd = new System.Windows.Forms.Label();
+            this.errMsj = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnIngresar
@@ -44,7 +47,7 @@
             this.btnIngresar.TabIndex = 0;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
-            this.btnIngresar.Click += new System.EventHandler(this.button1_Click);
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // btnCrearCuenta
             // 
@@ -54,7 +57,7 @@
             this.btnCrearCuenta.TabIndex = 1;
             this.btnCrearCuenta.Text = "Crear Cuenta";
             this.btnCrearCuenta.UseVisualStyleBackColor = true;
-            this.btnCrearCuenta.Click += new System.EventHandler(this.button2_Click);
+            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
             // 
             // txtUsuario
             // 
@@ -88,11 +91,51 @@
             this.lblUsuario.TabIndex = 6;
             this.lblUsuario.Text = "Usuario";
             // 
+            // errUsr
+            // 
+            this.errUsr.AutoSize = true;
+            this.errUsr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errUsr.ForeColor = System.Drawing.Color.Red;
+            this.errUsr.Location = new System.Drawing.Point(177, 45);
+            this.errUsr.Name = "errUsr";
+            this.errUsr.Size = new System.Drawing.Size(15, 20);
+            this.errUsr.TabIndex = 7;
+            this.errUsr.Text = "*";
+            this.errUsr.Visible = false;
+            // 
+            // errPwd
+            // 
+            this.errPwd.AutoSize = true;
+            this.errPwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errPwd.ForeColor = System.Drawing.Color.Red;
+            this.errPwd.Location = new System.Drawing.Point(177, 91);
+            this.errPwd.Name = "errPwd";
+            this.errPwd.Size = new System.Drawing.Size(15, 20);
+            this.errPwd.TabIndex = 8;
+            this.errPwd.Text = "*";
+            this.errPwd.Visible = false;
+            // 
+            // errMsj
+            // 
+            this.errMsj.AutoSize = true;
+            this.errMsj.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errMsj.ForeColor = System.Drawing.Color.Red;
+            this.errMsj.Location = new System.Drawing.Point(12, 211);
+            this.errMsj.Name = "errMsj";
+            this.errMsj.Size = new System.Drawing.Size(55, 15);
+            this.errMsj.TabIndex = 9;
+            this.errMsj.Text = "mensaje";
+            this.errMsj.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.errMsj.Visible = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(239, 237);
+            this.Controls.Add(this.errMsj);
+            this.Controls.Add(this.errPwd);
+            this.Controls.Add(this.errUsr);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.lblClave);
             this.Controls.Add(this.txtClave);
@@ -114,6 +157,9 @@
         private System.Windows.Forms.TextBox txtClave;
         private System.Windows.Forms.Label lblClave;
         private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.Label errUsr;
+        private System.Windows.Forms.Label errPwd;
+        private System.Windows.Forms.Label errMsj;
     }
 }
 
