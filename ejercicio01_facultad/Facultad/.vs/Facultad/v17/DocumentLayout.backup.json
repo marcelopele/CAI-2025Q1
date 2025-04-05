@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\crearusr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\crearusr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\crearusr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\crearusr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\facultad\\persistencia\\persistenciautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\persistencia\\persistenciautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\persistencia\\persistenciautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|c:\\users\\moto\\onedrive\\documentos\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad\\facultad\\facultad\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\facultad\\cambiarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\cambiarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\facultad\\cambiarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A9CDA5-948C-477D-BECD-9140FB3855CB}|Facultad\\Facultad.csproj|solutionrelative:facultad\\cambiarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +35,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CrearUsr.cs",
-              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\CrearUsr.cs",
-              "RelativeDocumentMoniker": "Facultad\\CrearUsr.cs",
-              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\CrearUsr.cs",
-              "RelativeToolTip": "Facultad\\CrearUsr.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T02:49:07.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CrearUsr.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\CrearUsr.cs",
-              "RelativeDocumentMoniker": "Facultad\\CrearUsr.cs",
-              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\CrearUsr.cs [Design]",
-              "RelativeToolTip": "Facultad\\CrearUsr.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T02:49:04.454Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PersistenciaUtils.cs",
               "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs",
               "RelativeDocumentMoniker": "Facultad\\Persistencia\\PersistenciaUtils.cs",
               "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs",
               "RelativeToolTip": "Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwGgAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T16:09:36.191Z",
+              "WhenOpened": "2025-04-05T17:05:37.805Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Menu.cs",
+              "RelativeDocumentMoniker": "Facultad\\Menu.cs",
+              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\Menu.cs [Design]",
+              "RelativeToolTip": "Facultad\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T04:09:23.96Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CambiarClave.cs",
+              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\CambiarClave.cs",
+              "RelativeDocumentMoniker": "Facultad\\CambiarClave.cs",
+              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\CambiarClave.cs",
+              "RelativeToolTip": "Facultad\\CambiarClave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:48:21.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CambiarClave.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\CambiarClave.cs",
+              "RelativeDocumentMoniker": "Facultad\\CambiarClave.cs",
+              "ToolTip": "C:\\Users\\Moto\\OneDrive\\Documentos\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad\\Facultad\\Facultad\\CambiarClave.cs [Design]",
+              "RelativeToolTip": "Facultad\\CambiarClave.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T03:48:17.763Z"
             }
           ]
         }

@@ -35,14 +35,14 @@
             this.lblClaveActual = new System.Windows.Forms.Label();
             this.txtClaveActual = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.btnIngresar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnCrearCuenta = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnGuardarCambios = new System.Windows.Forms.Button();
+            this.errClaveNva1 = new System.Windows.Forms.Label();
+            this.lblClaveNva1 = new System.Windows.Forms.Label();
+            this.txtClaveNva1 = new System.Windows.Forms.TextBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.errClaveNva2 = new System.Windows.Forms.Label();
+            this.lblClaveNva2 = new System.Windows.Forms.Label();
+            this.txtClaveNva2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // errMsj
@@ -114,92 +114,93 @@
             this.txtUsuario.Size = new System.Drawing.Size(100, 20);
             this.txtUsuario.TabIndex = 13;
             // 
-            // btnIngresar
+            // btnGuardarCambios
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(71, 250);
-            this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(100, 23);
-            this.btnIngresar.TabIndex = 11;
-            this.btnIngresar.Text = "Guardar cambios";
-            this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnGuardarCambios.Location = new System.Drawing.Point(71, 250);
+            this.btnGuardarCambios.Name = "btnGuardarCambios";
+            this.btnGuardarCambios.Size = new System.Drawing.Size(100, 23);
+            this.btnGuardarCambios.TabIndex = 11;
+            this.btnGuardarCambios.Text = "Guardar cambios";
+            this.btnGuardarCambios.UseVisualStyleBackColor = true;
+            this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
             // 
-            // label1
+            // errClaveNva1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(177, 154);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(15, 20);
-            this.label1.TabIndex = 23;
-            this.label1.Text = "*";
-            this.label1.Visible = false;
+            this.errClaveNva1.AutoSize = true;
+            this.errClaveNva1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errClaveNva1.ForeColor = System.Drawing.Color.Red;
+            this.errClaveNva1.Location = new System.Drawing.Point(177, 154);
+            this.errClaveNva1.Name = "errClaveNva1";
+            this.errClaveNva1.Size = new System.Drawing.Size(15, 20);
+            this.errClaveNva1.TabIndex = 23;
+            this.errClaveNva1.Text = "*";
+            this.errClaveNva1.Visible = false;
             // 
-            // label2
+            // lblClaveNva1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(68, 176);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 13);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "Nueva clave";
+            this.lblClaveNva1.AutoSize = true;
+            this.lblClaveNva1.Location = new System.Drawing.Point(68, 176);
+            this.lblClaveNva1.Name = "lblClaveNva1";
+            this.lblClaveNva1.Size = new System.Drawing.Size(68, 13);
+            this.lblClaveNva1.TabIndex = 22;
+            this.lblClaveNva1.Text = "Nueva clave";
             // 
-            // textBox1
+            // txtClaveNva1
             // 
-            this.textBox1.Location = new System.Drawing.Point(71, 154);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 21;
+            this.txtClaveNva1.Location = new System.Drawing.Point(71, 154);
+            this.txtClaveNva1.Name = "txtClaveNva1";
+            this.txtClaveNva1.Size = new System.Drawing.Size(100, 20);
+            this.txtClaveNva1.TabIndex = 21;
             // 
-            // btnCrearCuenta
+            // btnCancelar
             // 
-            this.btnCrearCuenta.Location = new System.Drawing.Point(71, 279);
-            this.btnCrearCuenta.Name = "btnCrearCuenta";
-            this.btnCrearCuenta.Size = new System.Drawing.Size(100, 23);
-            this.btnCrearCuenta.TabIndex = 12;
-            this.btnCrearCuenta.Text = "Cancelar";
-            this.btnCrearCuenta.UseVisualStyleBackColor = true;
-            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
+            this.btnCancelar.Location = new System.Drawing.Point(71, 279);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(100, 23);
+            this.btnCancelar.TabIndex = 12;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // label3
+            // errClaveNva2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(177, 193);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(15, 20);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "*";
-            this.label3.Visible = false;
+            this.errClaveNva2.AutoSize = true;
+            this.errClaveNva2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errClaveNva2.ForeColor = System.Drawing.Color.Red;
+            this.errClaveNva2.Location = new System.Drawing.Point(177, 193);
+            this.errClaveNva2.Name = "errClaveNva2";
+            this.errClaveNva2.Size = new System.Drawing.Size(15, 20);
+            this.errClaveNva2.TabIndex = 26;
+            this.errClaveNva2.Text = "*";
+            this.errClaveNva2.Visible = false;
             // 
-            // label4
+            // lblClaveNva2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(68, 215);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(113, 13);
-            this.label4.TabIndex = 25;
-            this.label4.Text = "Confirmar nueva clave";
+            this.lblClaveNva2.AutoSize = true;
+            this.lblClaveNva2.Location = new System.Drawing.Point(68, 215);
+            this.lblClaveNva2.Name = "lblClaveNva2";
+            this.lblClaveNva2.Size = new System.Drawing.Size(113, 13);
+            this.lblClaveNva2.TabIndex = 25;
+            this.lblClaveNva2.Text = "Confirmar nueva clave";
             // 
-            // textBox2
+            // txtClaveNva2
             // 
-            this.textBox2.Location = new System.Drawing.Point(71, 193);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 24;
+            this.txtClaveNva2.Location = new System.Drawing.Point(71, 193);
+            this.txtClaveNva2.Name = "txtClaveNva2";
+            this.txtClaveNva2.Size = new System.Drawing.Size(100, 20);
+            this.txtClaveNva2.TabIndex = 24;
             // 
             // CambiarClave
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(242, 353);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.errClaveNva2);
+            this.Controls.Add(this.lblClaveNva2);
+            this.Controls.Add(this.txtClaveNva2);
+            this.Controls.Add(this.errClaveNva1);
+            this.Controls.Add(this.lblClaveNva1);
+            this.Controls.Add(this.txtClaveNva1);
             this.Controls.Add(this.errMsj);
             this.Controls.Add(this.errClaveActual);
             this.Controls.Add(this.errUsr);
@@ -207,8 +208,8 @@
             this.Controls.Add(this.lblClaveActual);
             this.Controls.Add(this.txtClaveActual);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.btnCrearCuenta);
-            this.Controls.Add(this.btnIngresar);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnGuardarCambios);
             this.Name = "CambiarClave";
             this.Text = "CambiarClave";
             this.ResumeLayout(false);
@@ -224,13 +225,13 @@
         private System.Windows.Forms.Label lblClaveActual;
         private System.Windows.Forms.TextBox txtClaveActual;
         private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.Button btnIngresar;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button btnCrearCuenta;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnGuardarCambios;
+        private System.Windows.Forms.Label errClaveNva1;
+        private System.Windows.Forms.Label lblClaveNva1;
+        private System.Windows.Forms.TextBox txtClaveNva1;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Label errClaveNva2;
+        private System.Windows.Forms.Label lblClaveNva2;
+        private System.Windows.Forms.TextBox txtClaveNva2;
     }
 }

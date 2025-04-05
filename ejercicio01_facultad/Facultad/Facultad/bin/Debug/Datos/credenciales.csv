@@ -2,3 +2,4 @@ user;clave;fh_creacion;fh_actualizacion;fh_caducidad;intentos_err;clave-1;clave-
 administ;clave001;2025-01-01;2025-03-01;2025-05-01;0;clave anterior;otra clave;y otra más;Administrador;XX;a@a
 adminis2;clave002;2025-04-04;2025-04-04;2025-05-04;0;;;;Administrador2;ADM;b@b
 adminis3;clave003;2025-04-04;2025-04-04;2025-05-04;0;;;;Administrador3;ADM3;c@c
+adminis4;pwdNvb04;2025-04-05;2025-04-05;2025-05-05;0;pwdNva04;clave004;;;;

@@ -13,7 +13,7 @@ namespace Facultad
 {
     public partial class Login : Form
     {
-        PersistenciaUtils pu = new PersistenciaUtils();
+        private readonly PersistenciaUtils pu = new PersistenciaUtils();
 
 
         public Login()
@@ -125,6 +125,10 @@ namespace Facultad
 
         private void btnCambiarClave_Click(object sender, EventArgs e)
         {
+
+            this.Hide();
+            CambiarClave f4 = new CambiarClave();
+            f4.ShowDialog();
 
         }
     }

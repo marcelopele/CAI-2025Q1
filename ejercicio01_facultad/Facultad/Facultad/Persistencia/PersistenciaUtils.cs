@@ -13,32 +13,7 @@ namespace Facultad.Persistencia
 
         string ruta = @".\Datos\";
         string archivoCsv = "";
-        public List<String> LeerRegistro(String nombreArchivo)
-        {
-            archivoCsv = ruta + nombreArchivo; // Cambia esta ruta al archivo CSV que deseas leer
 
-            String rutaArchivo = Path.GetFullPath(archivoCsv); // Normaliza la ruta
-
-            List<String> listado = new List<String>();
-
-            try
-            {
-                using (StreamReader sr = new StreamReader(rutaArchivo))
-                {
-                    string linea;
-                    while ((linea = sr.ReadLine()) != null)
-                    {
-                        listado.Add(linea);
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("No se pudo leer el archivo:");
-                Console.WriteLine(e.Message);
-            }
-            return listado;
-        }
 
         //Encontrar un registro por columna y valor
         public String[] EncontrarRegPorColVal(String archivo, int col, String valor)
@@ -75,6 +50,8 @@ namespace Facultad.Persistencia
 
         }
 
+
+
         //listar el contenido de un archivo
         public List<String> ListarArchivo(String archivo)
         {
@@ -101,6 +78,8 @@ namespace Facultad.Persistencia
             return salida;
         }
 
+
+
         //agregar un registro al archivo
         public void AgregarRegistro(String archivo, String[] nuevo_registro)
         {
@@ -118,6 +97,8 @@ namespace Facultad.Persistencia
                 sw.Close();
             }
         }
+
+
 
         //modificar un registro del archivo
         public void ModificarRegistroCompleto(String archivo, int col_id, String valor_id, String[] nuevo_registro)
@@ -160,12 +141,15 @@ namespace Facultad.Persistencia
             }
         }
 
+
+
         //modificar un campo de un registro del archivo
 
 
 
 
         //borrar un registro del archivo
+
 
 
     }

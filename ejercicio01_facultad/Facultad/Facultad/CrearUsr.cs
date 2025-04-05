@@ -14,7 +14,7 @@ namespace Facultad
 {
     public partial class CrearUsr : Form
     {
-        PersistenciaUtils pu = new PersistenciaUtils();
+        private readonly PersistenciaUtils pu = new PersistenciaUtils();
 
         public CrearUsr()
         {
