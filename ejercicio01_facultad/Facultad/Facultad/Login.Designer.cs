@@ -37,6 +37,7 @@
             this.errUsr = new System.Windows.Forms.Label();
             this.errPwd = new System.Windows.Forms.Label();
             this.errMsj = new System.Windows.Forms.Label();
+            this.btnCambiarClave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnIngresar
@@ -120,7 +121,7 @@
             this.errMsj.AutoSize = true;
             this.errMsj.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.errMsj.ForeColor = System.Drawing.Color.Red;
-            this.errMsj.Location = new System.Drawing.Point(12, 211);
+            this.errMsj.Location = new System.Drawing.Point(12, 249);
             this.errMsj.Name = "errMsj";
             this.errMsj.Size = new System.Drawing.Size(55, 15);
             this.errMsj.TabIndex = 9;
@@ -128,11 +129,22 @@
             this.errMsj.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.errMsj.Visible = false;
             // 
+            // btnCambiarClave
+            // 
+            this.btnCambiarClave.Location = new System.Drawing.Point(71, 205);
+            this.btnCambiarClave.Name = "btnCambiarClave";
+            this.btnCambiarClave.Size = new System.Drawing.Size(100, 23);
+            this.btnCambiarClave.TabIndex = 10;
+            this.btnCambiarClave.Text = "Cambiar clave";
+            this.btnCambiarClave.UseVisualStyleBackColor = true;
+            this.btnCambiarClave.Click += new System.EventHandler(this.btnCambiarClave_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(239, 237);
+            this.ClientSize = new System.Drawing.Size(242, 273);
+            this.Controls.Add(this.btnCambiarClave);
             this.Controls.Add(this.errMsj);
             this.Controls.Add(this.errPwd);
             this.Controls.Add(this.errUsr);
@@ -160,6 +172,7 @@
         private System.Windows.Forms.Label errUsr;
         private System.Windows.Forms.Label errPwd;
         private System.Windows.Forms.Label errMsj;
+        private System.Windows.Forms.Button btnCambiarClave;
     }
 }
 

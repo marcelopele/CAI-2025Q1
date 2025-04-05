@@ -31,7 +31,7 @@ namespace Facultad
             errMsj.Visible = false;
 
 
-            //1. Validar que los campos no estén vacíos
+            //1. Validación de datos obligatorios:
             if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(clave))
             {
                 if (string.IsNullOrEmpty(usuario))
@@ -45,7 +45,6 @@ namespace Facultad
                     // Marcar error en el campo de clave
                     errPwd.Visible = true;
                 }
-                // Si hay errores, no se puede continuar
                 // Mostrar mensaje de error
                 errMsj.Text = "* Completar datos obligatorios";
                 errMsj.Visible = true;
@@ -98,7 +97,7 @@ namespace Facultad
                     if (Convert.ToDateTime(datos_usuario[4]) < DateTime.Now)
                     {
                         errPwd.Visible = true;                                      // Marcar error en el campo de clave
-                        errMsj.Text = "* Su clave ha caducado debe cambiarla";     // Mostrar mensaje de error
+                        errMsj.Text = "* Su clave ha caducado debe cambiarla";      // Mostrar mensaje de error
                         errMsj.Visible = true;
                     }
 
@@ -124,7 +123,9 @@ namespace Facultad
 
         }
 
+        private void btnCambiarClave_Click(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }

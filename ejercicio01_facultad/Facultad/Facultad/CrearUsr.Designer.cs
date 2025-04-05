@@ -30,16 +30,22 @@
         {
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
-            this.txtDNI = new System.Windows.Forms.TextBox();
+            this.txtMail = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtClave = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblApellido = new System.Windows.Forms.Label();
+            this.lblMail = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.errNombre = new System.Windows.Forms.Label();
+            this.errApellido = new System.Windows.Forms.Label();
+            this.errMail = new System.Windows.Forms.Label();
+            this.errUsr = new System.Windows.Forms.Label();
+            this.errPwd = new System.Windows.Forms.Label();
+            this.errMsj = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -56,12 +62,12 @@
             this.txtApellido.Size = new System.Drawing.Size(250, 20);
             this.txtApellido.TabIndex = 1;
             // 
-            // txtDNI
+            // txtMail
             // 
-            this.txtDNI.Location = new System.Drawing.Point(104, 86);
-            this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(250, 20);
-            this.txtDNI.TabIndex = 2;
+            this.txtMail.Location = new System.Drawing.Point(104, 86);
+            this.txtMail.Name = "txtMail";
+            this.txtMail.Size = new System.Drawing.Size(250, 20);
+            this.txtMail.TabIndex = 2;
             // 
             // txtUsuario
             // 
@@ -77,32 +83,32 @@
             this.txtClave.Size = new System.Drawing.Size(250, 20);
             this.txtClave.TabIndex = 4;
             // 
-            // label1
+            // lblNombre
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Nombre";
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(33, 37);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.TabIndex = 5;
+            this.lblNombre.Text = "Nombre";
             // 
-            // label2
+            // lblApellido
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Apellido";
+            this.lblApellido.AutoSize = true;
+            this.lblApellido.Location = new System.Drawing.Point(33, 63);
+            this.lblApellido.Name = "lblApellido";
+            this.lblApellido.Size = new System.Drawing.Size(44, 13);
+            this.lblApellido.TabIndex = 6;
+            this.lblApellido.Text = "Apellido";
             // 
-            // label3
+            // lblMail
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 89);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "DNI";
+            this.lblMail.AutoSize = true;
+            this.lblMail.Location = new System.Drawing.Point(33, 89);
+            this.lblMail.Name = "lblMail";
+            this.lblMail.Size = new System.Drawing.Size(31, 13);
+            this.lblMail.TabIndex = 7;
+            this.lblMail.Text = "email";
             // 
             // label4
             // 
@@ -142,23 +148,101 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.button2_Click);
             // 
+            // errNombre
+            // 
+            this.errNombre.AutoSize = true;
+            this.errNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errNombre.ForeColor = System.Drawing.Color.Red;
+            this.errNombre.Location = new System.Drawing.Point(360, 34);
+            this.errNombre.Name = "errNombre";
+            this.errNombre.Size = new System.Drawing.Size(15, 20);
+            this.errNombre.TabIndex = 12;
+            this.errNombre.Text = "*";
+            this.errNombre.Visible = false;
+            // 
+            // errApellido
+            // 
+            this.errApellido.AutoSize = true;
+            this.errApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errApellido.ForeColor = System.Drawing.Color.Red;
+            this.errApellido.Location = new System.Drawing.Point(360, 60);
+            this.errApellido.Name = "errApellido";
+            this.errApellido.Size = new System.Drawing.Size(15, 20);
+            this.errApellido.TabIndex = 13;
+            this.errApellido.Text = "*";
+            this.errApellido.Visible = false;
+            // 
+            // errMail
+            // 
+            this.errMail.AutoSize = true;
+            this.errMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errMail.ForeColor = System.Drawing.Color.Red;
+            this.errMail.Location = new System.Drawing.Point(360, 86);
+            this.errMail.Name = "errMail";
+            this.errMail.Size = new System.Drawing.Size(15, 20);
+            this.errMail.TabIndex = 14;
+            this.errMail.Text = "*";
+            this.errMail.Visible = false;
+            // 
+            // errUsr
+            // 
+            this.errUsr.AutoSize = true;
+            this.errUsr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errUsr.ForeColor = System.Drawing.Color.Red;
+            this.errUsr.Location = new System.Drawing.Point(360, 112);
+            this.errUsr.Name = "errUsr";
+            this.errUsr.Size = new System.Drawing.Size(15, 20);
+            this.errUsr.TabIndex = 15;
+            this.errUsr.Text = "*";
+            this.errUsr.Visible = false;
+            // 
+            // errPwd
+            // 
+            this.errPwd.AutoSize = true;
+            this.errPwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errPwd.ForeColor = System.Drawing.Color.Red;
+            this.errPwd.Location = new System.Drawing.Point(360, 138);
+            this.errPwd.Name = "errPwd";
+            this.errPwd.Size = new System.Drawing.Size(15, 20);
+            this.errPwd.TabIndex = 16;
+            this.errPwd.Text = "*";
+            this.errPwd.Visible = false;
+            // 
+            // errMsj
+            // 
+            this.errMsj.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errMsj.ForeColor = System.Drawing.Color.Red;
+            this.errMsj.Location = new System.Drawing.Point(12, 178);
+            this.errMsj.Name = "errMsj";
+            this.errMsj.Size = new System.Drawing.Size(370, 88);
+            this.errMsj.TabIndex = 17;
+            this.errMsj.Text = "mensaje";
+            this.errMsj.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.errMsj.Visible = false;
+            // 
             // CrearUsr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 251);
+            this.ClientSize = new System.Drawing.Size(394, 271);
+            this.Controls.Add(this.errPwd);
+            this.Controls.Add(this.errUsr);
+            this.Controls.Add(this.errMail);
+            this.Controls.Add(this.errApellido);
+            this.Controls.Add(this.errNombre);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblMail);
+            this.Controls.Add(this.lblApellido);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.txtClave);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.txtDNI);
+            this.Controls.Add(this.txtMail);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.errMsj);
             this.Name = "CrearUsr";
             this.Text = "Crear Cuenta";
             this.ResumeLayout(false);
@@ -170,15 +254,21 @@
 
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.TextBox txtDNI;
+        private System.Windows.Forms.TextBox txtMail;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtClave;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblApellido;
+        private System.Windows.Forms.Label lblMail;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Label errNombre;
+        private System.Windows.Forms.Label errApellido;
+        private System.Windows.Forms.Label errMail;
+        private System.Windows.Forms.Label errUsr;
+        private System.Windows.Forms.Label errPwd;
+        private System.Windows.Forms.Label errMsj;
     }
 }

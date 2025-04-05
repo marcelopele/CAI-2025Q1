@@ -114,7 +114,7 @@ namespace Facultad.Persistencia
             else
             {
                 StreamWriter sw = fi.AppendText();
-                sw.WriteLine(nuevo_registro);
+                sw.WriteLine(string.Join(";", nuevo_registro));
                 sw.Close();
             }
         }
