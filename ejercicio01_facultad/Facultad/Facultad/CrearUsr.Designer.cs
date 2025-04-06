@@ -133,7 +133,7 @@
             this.btnConfirmar.Location = new System.Drawing.Point(36, 191);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(155, 23);
-            this.btnConfirmar.TabIndex = 10;
+            this.btnConfirmar.TabIndex = 5;
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = true;
             this.btnConfirmar.Click += new System.EventHandler(this.button1_Click);
@@ -143,7 +143,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(199, 191);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(155, 23);
-            this.btnCancelar.TabIndex = 11;
+            this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.button2_Click);

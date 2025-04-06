@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dateFhNacimiento = new System.Windows.Forms.DateTimePicker();
-            this.lstAlumnos = new System.Windows.Forms.ListBox();
+            this.txtFechaNac = new System.Windows.Forms.DateTimePicker();
             this.btnSaludo = new System.Windows.Forms.Button();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
@@ -43,38 +42,41 @@
             this.lblListaAlumnos = new System.Windows.Forms.Label();
             this.btnNombreCompleto = new System.Windows.Forms.Button();
             this.btnVolverMenu = new System.Windows.Forms.Button();
+            this.grdAlumnos = new System.Windows.Forms.DataGridView();
+            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fhNac = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnConfirmar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.grdAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
-            // dateFhNacimiento
+            // txtFechaNac
             // 
-            this.dateFhNacimiento.Location = new System.Drawing.Point(148, 83);
-            this.dateFhNacimiento.Name = "dateFhNacimiento";
-            this.dateFhNacimiento.Size = new System.Drawing.Size(253, 20);
-            this.dateFhNacimiento.TabIndex = 9;
-            // 
-            // lstAlumnos
-            // 
-            this.lstAlumnos.FormattingEnabled = true;
-            this.lstAlumnos.Location = new System.Drawing.Point(41, 202);
-            this.lstAlumnos.Name = "lstAlumnos";
-            this.lstAlumnos.Size = new System.Drawing.Size(490, 225);
-            this.lstAlumnos.TabIndex = 8;
+            this.txtFechaNac.Location = new System.Drawing.Point(148, 83);
+            this.txtFechaNac.Name = "txtFechaNac";
+            this.txtFechaNac.Size = new System.Drawing.Size(220, 20);
+            this.txtFechaNac.TabIndex = 3;
             // 
             // btnSaludo
             // 
-            this.btnSaludo.Location = new System.Drawing.Point(424, 99);
+            this.btnSaludo.Location = new System.Drawing.Point(374, 109);
             this.btnSaludo.Name = "btnSaludo";
-            this.btnSaludo.Size = new System.Drawing.Size(107, 23);
-            this.btnSaludo.TabIndex = 7;
-            this.btnSaludo.Text = "Saludo";
+            this.btnSaludo.Size = new System.Drawing.Size(129, 23);
+            this.btnSaludo.TabIndex = 8;
+            this.btnSaludo.Text = "Saludo informal";
             this.btnSaludo.UseVisualStyleBackColor = true;
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(148, 31);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(253, 20);
-            this.txtNombre.TabIndex = 6;
+            this.txtNombre.Size = new System.Drawing.Size(220, 20);
+            this.txtNombre.TabIndex = 1;
             // 
             // lblNombre
             // 
@@ -89,8 +91,8 @@
             // 
             this.txtApellido.Location = new System.Drawing.Point(148, 57);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(253, 20);
-            this.txtApellido.TabIndex = 11;
+            this.txtApellido.Size = new System.Drawing.Size(220, 20);
+            this.txtApellido.TabIndex = 2;
             // 
             // lblApellido
             // 
@@ -114,8 +116,8 @@
             // 
             this.txtCodigo.Location = new System.Drawing.Point(148, 109);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(253, 20);
-            this.txtCodigo.TabIndex = 14;
+            this.txtCodigo.Size = new System.Drawing.Size(220, 20);
+            this.txtCodigo.TabIndex = 4;
             // 
             // lblCodigo
             // 
@@ -128,10 +130,10 @@
             // 
             // btnCredencial
             // 
-            this.btnCredencial.Location = new System.Drawing.Point(424, 41);
+            this.btnCredencial.Location = new System.Drawing.Point(374, 57);
             this.btnCredencial.Name = "btnCredencial";
-            this.btnCredencial.Size = new System.Drawing.Size(107, 23);
-            this.btnCredencial.TabIndex = 15;
+            this.btnCredencial.Size = new System.Drawing.Size(129, 23);
+            this.btnCredencial.TabIndex = 6;
             this.btnCredencial.Text = "Credencial";
             this.btnCredencial.UseVisualStyleBackColor = true;
             // 
@@ -146,28 +148,120 @@
             // 
             // btnNombreCompleto
             // 
-            this.btnNombreCompleto.Location = new System.Drawing.Point(424, 70);
+            this.btnNombreCompleto.Location = new System.Drawing.Point(374, 83);
             this.btnNombreCompleto.Name = "btnNombreCompleto";
-            this.btnNombreCompleto.Size = new System.Drawing.Size(107, 23);
-            this.btnNombreCompleto.TabIndex = 17;
+            this.btnNombreCompleto.Size = new System.Drawing.Size(129, 23);
+            this.btnNombreCompleto.TabIndex = 7;
             this.btnNombreCompleto.Text = "Nombre Completo";
             this.btnNombreCompleto.UseVisualStyleBackColor = true;
             // 
             // btnVolverMenu
             // 
-            this.btnVolverMenu.Location = new System.Drawing.Point(424, 12);
+            this.btnVolverMenu.Location = new System.Drawing.Point(374, 31);
             this.btnVolverMenu.Name = "btnVolverMenu";
-            this.btnVolverMenu.Size = new System.Drawing.Size(107, 23);
-            this.btnVolverMenu.TabIndex = 18;
+            this.btnVolverMenu.Size = new System.Drawing.Size(129, 23);
+            this.btnVolverMenu.TabIndex = 5;
             this.btnVolverMenu.Text = "Volver al Menú";
             this.btnVolverMenu.UseVisualStyleBackColor = true;
             this.btnVolverMenu.Click += new System.EventHandler(this.btnVolverMenu_Click);
+            // 
+            // grdAlumnos
+            // 
+            this.grdAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdAlumnos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nombre,
+            this.apellido,
+            this.codigo,
+            this.fhNac});
+            this.grdAlumnos.Location = new System.Drawing.Point(41, 202);
+            this.grdAlumnos.Name = "grdAlumnos";
+            this.grdAlumnos.Size = new System.Drawing.Size(462, 236);
+            this.grdAlumnos.TabIndex = 14;
+            this.grdAlumnos.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAlumnos_RowEnter);
+            // 
+            // nombre
+            // 
+            this.nombre.HeaderText = "Nombre";
+            this.nombre.Name = "nombre";
+            this.nombre.ReadOnly = true;
+            // 
+            // apellido
+            // 
+            this.apellido.HeaderText = "Apellido";
+            this.apellido.Name = "apellido";
+            this.apellido.ReadOnly = true;
+            // 
+            // codigo
+            // 
+            this.codigo.HeaderText = "Código";
+            this.codigo.Name = "codigo";
+            this.codigo.ReadOnly = true;
+            // 
+            // fhNac
+            // 
+            this.fhNac.HeaderText = "Nacimiento";
+            this.fhNac.Name = "fhNac";
+            this.fhNac.ReadOnly = true;
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(148, 147);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(107, 23);
+            this.btnModificar.TabIndex = 10;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(261, 147);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(107, 23);
+            this.btnEliminar.TabIndex = 11;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(35, 147);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(107, 23);
+            this.btnNuevo.TabIndex = 9;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            // 
+            // btnConfirmar
+            // 
+            this.btnConfirmar.Location = new System.Drawing.Point(375, 147);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(61, 23);
+            this.btnConfirmar.TabIndex = 12;
+            this.btnConfirmar.Text = "Confirmar";
+            this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.btnConfirmar.Visible = false;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(442, 147);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(61, 23);
+            this.btnCancelar.TabIndex = 13;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Visible = false;
             // 
             // formAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(575, 450);
+            this.ClientSize = new System.Drawing.Size(519, 450);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnConfirmar);
+            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.grdAlumnos);
             this.Controls.Add(this.btnVolverMenu);
             this.Controls.Add(this.btnNombreCompleto);
             this.Controls.Add(this.lblListaAlumnos);
@@ -177,13 +271,13 @@
             this.Controls.Add(this.lblFhNacimiento);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.lblApellido);
-            this.Controls.Add(this.dateFhNacimiento);
-            this.Controls.Add(this.lstAlumnos);
+            this.Controls.Add(this.txtFechaNac);
             this.Controls.Add(this.btnSaludo);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
             this.Name = "formAlumnos";
             this.Text = "Alumnos";
+            ((System.ComponentModel.ISupportInitialize)(this.grdAlumnos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,8 +285,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DateTimePicker dateFhNacimiento;
-        private System.Windows.Forms.ListBox lstAlumnos;
+        private System.Windows.Forms.DateTimePicker txtFechaNac;
         private System.Windows.Forms.Button btnSaludo;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label lblNombre;
@@ -206,5 +299,15 @@
         private System.Windows.Forms.Label lblListaAlumnos;
         private System.Windows.Forms.Button btnNombreCompleto;
         private System.Windows.Forms.Button btnVolverMenu;
+        private System.Windows.Forms.DataGridView grdAlumnos;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn apellido;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fhNac;
+        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnConfirmar;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }

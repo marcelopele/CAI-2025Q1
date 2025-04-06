@@ -105,21 +105,21 @@
             this.txtClaveActual.Location = new System.Drawing.Point(71, 91);
             this.txtClaveActual.Name = "txtClaveActual";
             this.txtClaveActual.Size = new System.Drawing.Size(100, 20);
-            this.txtClaveActual.TabIndex = 14;
+            this.txtClaveActual.TabIndex = 1;
             // 
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(71, 42);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(100, 20);
-            this.txtUsuario.TabIndex = 13;
+            this.txtUsuario.TabIndex = 0;
             // 
             // btnGuardarCambios
             // 
             this.btnGuardarCambios.Location = new System.Drawing.Point(71, 250);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
             this.btnGuardarCambios.Size = new System.Drawing.Size(100, 23);
-            this.btnGuardarCambios.TabIndex = 11;
+            this.btnGuardarCambios.TabIndex = 4;
             this.btnGuardarCambios.Text = "Guardar cambios";
             this.btnGuardarCambios.UseVisualStyleBackColor = true;
             this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
@@ -150,14 +150,14 @@
             this.txtClaveNva1.Location = new System.Drawing.Point(71, 154);
             this.txtClaveNva1.Name = "txtClaveNva1";
             this.txtClaveNva1.Size = new System.Drawing.Size(100, 20);
-            this.txtClaveNva1.TabIndex = 21;
+            this.txtClaveNva1.TabIndex = 2;
             // 
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(71, 279);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(100, 23);
-            this.btnCancelar.TabIndex = 12;
+            this.btnCancelar.TabIndex = 5;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
@@ -188,7 +188,7 @@
             this.txtClaveNva2.Location = new System.Drawing.Point(71, 193);
             this.txtClaveNva2.Name = "txtClaveNva2";
             this.txtClaveNva2.Size = new System.Drawing.Size(100, 20);
-            this.txtClaveNva2.TabIndex = 24;
+            this.txtClaveNva2.TabIndex = 3;
             // 
             // CambiarClave
             // 

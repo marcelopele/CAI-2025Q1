@@ -45,7 +45,7 @@
             this.btnIngresar.Location = new System.Drawing.Point(71, 147);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(100, 23);
-            this.btnIngresar.TabIndex = 0;
+            this.btnIngresar.TabIndex = 2;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
@@ -55,7 +55,7 @@
             this.btnCrearCuenta.Location = new System.Drawing.Point(71, 176);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
             this.btnCrearCuenta.Size = new System.Drawing.Size(100, 23);
-            this.btnCrearCuenta.TabIndex = 1;
+            this.btnCrearCuenta.TabIndex = 3;
             this.btnCrearCuenta.Text = "Crear Cuenta";
             this.btnCrearCuenta.UseVisualStyleBackColor = true;
             this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
@@ -65,14 +65,14 @@
             this.txtUsuario.Location = new System.Drawing.Point(71, 42);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(100, 20);
-            this.txtUsuario.TabIndex = 2;
+            this.txtUsuario.TabIndex = 0;
             // 
             // txtClave
             // 
             this.txtClave.Location = new System.Drawing.Point(71, 91);
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(100, 20);
-            this.txtClave.TabIndex = 3;
+            this.txtClave.TabIndex = 1;
             // 
             // lblClave
             // 
@@ -100,7 +100,7 @@
             this.errUsr.Location = new System.Drawing.Point(177, 45);
             this.errUsr.Name = "errUsr";
             this.errUsr.Size = new System.Drawing.Size(15, 20);
-            this.errUsr.TabIndex = 7;
+            this.errUsr.TabIndex = 5;
             this.errUsr.Text = "*";
             this.errUsr.Visible = false;
             // 
@@ -112,7 +112,7 @@
             this.errPwd.Location = new System.Drawing.Point(177, 91);
             this.errPwd.Name = "errPwd";
             this.errPwd.Size = new System.Drawing.Size(15, 20);
-            this.errPwd.TabIndex = 8;
+            this.errPwd.TabIndex = 6;
             this.errPwd.Text = "*";
             this.errPwd.Visible = false;
             // 
@@ -134,7 +134,7 @@
             this.btnCambiarClave.Location = new System.Drawing.Point(71, 205);
             this.btnCambiarClave.Name = "btnCambiarClave";
             this.btnCambiarClave.Size = new System.Drawing.Size(100, 23);
-            this.btnCambiarClave.TabIndex = 10;
+            this.btnCambiarClave.TabIndex = 4;
             this.btnCambiarClave.Text = "Cambiar clave";
             this.btnCambiarClave.UseVisualStyleBackColor = true;
             this.btnCambiarClave.Click += new System.EventHandler(this.btnCambiarClave_Click);

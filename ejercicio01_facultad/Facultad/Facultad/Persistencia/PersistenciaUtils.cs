@@ -12,7 +12,6 @@ namespace Facultad.Persistencia
     {
 
         string ruta = @".\Datos\";
-        string archivoCsv = "";
 
 
         //Encontrar un registro por columna y valor

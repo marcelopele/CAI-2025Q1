@@ -13,11 +13,11 @@ namespace Facultad.Entidades
         private string _apellido;
         private DateTime _fechaNac;
 
+
         //Propiedades
         protected string Nombre { get => _nombre; set => _nombre = value; }
         protected string Apellido { get => _apellido; set => _apellido = value; }
         protected DateTime FechaNac { get => _fechaNac; set => _fechaNac = value; }
-
 
         //Métodos
         protected abstract void GetCredencial();

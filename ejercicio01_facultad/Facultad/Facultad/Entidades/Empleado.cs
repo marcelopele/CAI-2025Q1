@@ -12,6 +12,7 @@ namespace Facultad.Entidades
         private int _legajo;
         private DateTime _fechaIngreso;
 
+
         //Propiedades
         public int Legajo { get => _legajo; set => _legajo = value; }
         public DateTime FechaIngreso { get => _fechaIngreso; set => _fechaIngreso = value; }
