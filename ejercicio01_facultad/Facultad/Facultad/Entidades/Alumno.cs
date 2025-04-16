@@ -45,5 +45,15 @@ namespace Facultad.Entidades
             return this.Apellido + ", " + this.Nombre + " (" + this.Codigo + ")";
         }
 
+        public String[] ToStringCSV()
+        {
+            String[] salida = new String[4];
+            salida[0] = this.Codigo.ToString();
+            salida[1] = this.Nombre;
+            salida[2] = this.Apellido;
+            salida[3] = this.FechaNac.ToString("yyyy-MM-dd");
+            return salida;
+        }
+
     }
 }

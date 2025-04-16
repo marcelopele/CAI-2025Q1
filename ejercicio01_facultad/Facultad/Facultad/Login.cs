@@ -36,17 +36,14 @@ namespace Facultad
             {
                 if (string.IsNullOrEmpty(usuario))
                 {
-                    // Marcar error en el campo de usuario
-                    errUsr.Visible = true;
+                    errUsr.Visible = true;                                          // Marcar error en el campo de usuario
                 }
 
                 if (string.IsNullOrEmpty(clave))
                 {
-                    // Marcar error en el campo de clave
-                    errPwd.Visible = true;
+                    errPwd.Visible = true;                                          // Marcar error en el campo de clave
                 }
-                // Mostrar mensaje de error
-                errMsj.Text = "* Completar datos obligatorios";
+                errMsj.Text = "* Completar datos obligatorios";                     // Mostrar mensaje de error
                 errMsj.Visible = true;
             }
 

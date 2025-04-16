@@ -44,7 +44,8 @@ namespace Facultad
             String usuario = txtUsuario.Text;
             String clave = txtClave.Text;
 
-            String errMsj2 = "";
+            String errMsj1 = "";
+            String errMsjAd = "";
 
             // 1. Validaciones de datos obligatorios y contenido:
             if (string.IsNullOrEmpty(nombre) || 
@@ -52,40 +53,46 @@ namespace Facultad
                 string.IsNullOrEmpty(mail) ||
                 string.IsNullOrEmpty(usuario) ||
                 string.IsNullOrEmpty(clave) ||
-                usuario.Length < 8 ||
-                clave.Length < 8)
+                usuario.Length < 6 ||
+                clave.Length < 6)
             {
                 if (string.IsNullOrEmpty(nombre))
                 {
                     errNombre.Visible = true;                                   // Marcar error en el campo de nombre
+                    errMsj1 = "* Completar datos obligatorios\r\n";
                 }
                 if (string.IsNullOrEmpty(apellido))
                 {
                     errApellido.Visible = true;                                 // Marcar error en el campo de apellido
+                    errMsj1 = "* Completar datos obligatorios\r\n";
                 }
                 if (string.IsNullOrEmpty(mail))
                 {
                     errMail.Visible = true;                                     // Marcar error en el campo de mail
+                    errMsj1 = "* Completar datos obligatorios\r\n";
                 }
                 if (string.IsNullOrEmpty(usuario))
                 {
                     errUsr.Visible = true;                                      // Marcar error en el campo de usuario
-                }else if (usuario.Length<8)
+                    errMsj1 = "* Completar datos obligatorios\r\n";
+                }
+                else if (usuario.Length<6)
                 {
                     errUsr.Visible = true;                                      // Marcar error en el campo de usuario
-                    errMsj2 += "\r\n El usuario debe contener 8 o más caracteres";
+                    errMsjAd += "* El usuario debe contener 6 o más caracteres\r\n";
                 }
                 if (string.IsNullOrEmpty(clave))
                 {
                     errPwd.Visible = true;                                      // Marcar error en el campo de clave
+                    errMsj1 = "* Completar datos obligatorios\r\n";
                 }
-                else if (clave.Length < 8)
+                else if (clave.Length < 6)
                 {
                     errPwd.Visible = true;                                      // Marcar error en el campo de clave
-                    errMsj2 += "\r\n La clave debe contener 8 o más caracteres";
+                    errMsjAd += "* La clave debe contener 6 o más caracteres\r\n";
                 }
 
-                errMsj.Text = "* Completar datos obligatorios"+errMsj2;         // Mostrar mensaje de error
+                errMsj.Text = errMsj1+errMsjAd;                                 // Mostrar mensaje de error
                 errMsj.Visible = true;
             }
             //2. Si los datos superan las validaciones controlar que no exista el usuario
@@ -108,10 +115,10 @@ namespace Facultad
                     nuevoUsuario[2] = DateTime.Now.ToString("yyyy-MM-dd");              // Fecha de creación
                     nuevoUsuario[3] = DateTime.Now.ToString("yyyy-MM-dd");              // Fecha de modificación
                     nuevoUsuario[4] = DateTime.Now.AddDays(30).ToString("yyyy-MM-dd");  // Fecha de caducidad
-                    nuevoUsuario[5] = "0"; // Intentos
-                    nuevoUsuario[6] = ""; // clave-1
-                    nuevoUsuario[7] = ""; // clave-2
-                    nuevoUsuario[8] = ""; // clave-3
+                    nuevoUsuario[5] = "0";                                              // Intentos
+                    nuevoUsuario[6] = "";                                               // clave-1
+                    nuevoUsuario[7] = "";                                               // clave-2
+                    nuevoUsuario[8] = "";                                               // clave-3
                     nuevoUsuario[9] = nombre;
                     nuevoUsuario[10] = apellido;
                     nuevoUsuario[11] = mail;
@@ -126,12 +133,8 @@ namespace Facultad
 
             }
 
-
-
-
         }
 
-
-
     }
+
 }

@@ -141,14 +141,39 @@ namespace Facultad.Persistencia
         }
 
 
-
-        //modificar un campo de un registro del archivo
-
-
-
-
         //borrar un registro del archivo
-
+        public void BorrarRegistro(String archivo, int col_id, String valor_id)
+        {
+            archivo = Path.GetFullPath(ruta + archivo);
+            FileInfo fi = new FileInfo(archivo);
+            if (!fi.Exists)
+            {
+                MessageBox.Show("No se pudo leer el archivo");
+            }
+            else
+            {
+                StreamReader sr = fi.OpenText();
+                // Leo el archivo y lo guardo en una lista sin el registro a borrar
+                List<String> listado = new List<String>();
+                while (!sr.EndOfStream)
+                {
+                    String linea = sr.ReadLine().ToString();
+                    String[] datos = linea.Split(';');
+                    if (datos[col_id] != valor_id)
+                    {
+                        listado.Add(linea);
+                    }
+                }
+                sr.Close();
+                // Escribo el archivo sin el registro a borrar
+                StreamWriter sw = fi.CreateText();
+                foreach (String item in listado)
+                {
+                    sw.WriteLine(item);
+                }
+                sw.Close();
+            }
+        }
 
 
     }

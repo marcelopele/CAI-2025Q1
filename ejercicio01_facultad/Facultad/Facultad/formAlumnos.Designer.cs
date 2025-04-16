@@ -52,6 +52,8 @@
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.txtFechaNacReadOnly = new System.Windows.Forms.TextBox();
+            this.txtModo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.grdAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,6 +63,7 @@
             this.txtFechaNac.Name = "txtFechaNac";
             this.txtFechaNac.Size = new System.Drawing.Size(220, 20);
             this.txtFechaNac.TabIndex = 3;
+            this.txtFechaNac.Visible = false;
             // 
             // btnSaludo
             // 
@@ -75,6 +78,7 @@
             // 
             this.txtNombre.Location = new System.Drawing.Point(148, 31);
             this.txtNombre.Name = "txtNombre";
+            this.txtNombre.ReadOnly = true;
             this.txtNombre.Size = new System.Drawing.Size(220, 20);
             this.txtNombre.TabIndex = 1;
             // 
@@ -91,6 +95,7 @@
             // 
             this.txtApellido.Location = new System.Drawing.Point(148, 57);
             this.txtApellido.Name = "txtApellido";
+            this.txtApellido.ReadOnly = true;
             this.txtApellido.Size = new System.Drawing.Size(220, 20);
             this.txtApellido.TabIndex = 2;
             // 
@@ -116,6 +121,7 @@
             // 
             this.txtCodigo.Location = new System.Drawing.Point(148, 109);
             this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.ReadOnly = true;
             this.txtCodigo.Size = new System.Drawing.Size(220, 20);
             this.txtCodigo.TabIndex = 4;
             // 
@@ -221,6 +227,7 @@
             this.btnEliminar.TabIndex = 11;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnNuevo
             // 
@@ -230,6 +237,7 @@
             this.btnNuevo.TabIndex = 9;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // btnConfirmar
             // 
@@ -240,6 +248,7 @@
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = true;
             this.btnConfirmar.Visible = false;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // btnCancelar
             // 
@@ -250,12 +259,32 @@
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Visible = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // txtFechaNacReadOnly
+            // 
+            this.txtFechaNacReadOnly.Location = new System.Drawing.Point(148, 82);
+            this.txtFechaNacReadOnly.Name = "txtFechaNacReadOnly";
+            this.txtFechaNacReadOnly.ReadOnly = true;
+            this.txtFechaNacReadOnly.Size = new System.Drawing.Size(220, 20);
+            this.txtFechaNacReadOnly.TabIndex = 17;
+            // 
+            // txtModo
+            // 
+            this.txtModo.Location = new System.Drawing.Point(12, 5);
+            this.txtModo.Name = "txtModo";
+            this.txtModo.ReadOnly = true;
+            this.txtModo.Size = new System.Drawing.Size(30, 20);
+            this.txtModo.TabIndex = 18;
+            this.txtModo.Visible = false;
             // 
             // formAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(519, 450);
+            this.Controls.Add(this.txtModo);
+            this.Controls.Add(this.txtFechaNacReadOnly);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.btnNuevo);
@@ -309,5 +338,7 @@
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.TextBox txtFechaNacReadOnly;
+        private System.Windows.Forms.TextBox txtModo;
     }
 }

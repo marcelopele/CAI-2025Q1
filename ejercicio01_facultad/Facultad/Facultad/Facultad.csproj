@@ -67,6 +67,7 @@
     <Compile Include="CambiarClave.Designer.cs">
       <DependentUpon>CambiarClave.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entidades\Credenciales.cs" />
     <Compile Include="formAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>

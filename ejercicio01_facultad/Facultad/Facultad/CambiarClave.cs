@@ -41,59 +41,64 @@ namespace Facultad
             String clave_nva1 = txtClaveNva1.Text;
             String clave_nva2 = txtClaveNva2.Text;
 
-            String errMsj2 = "";
+            String errMsj1 = "";
+            String errMsjAd = "";
 
             // 1. Validaciones de datos obligatorios y contenido:
             if (string.IsNullOrEmpty(usuario) ||
                 string.IsNullOrEmpty(clave_actual) ||
                 string.IsNullOrEmpty(clave_nva1) ||
                 string.IsNullOrEmpty(clave_nva1) ||
-                usuario.Length < 8 ||
-                clave_actual.Length < 8 ||
-                clave_nva1.Length < 8 ||
-                clave_nva2.Length < 8)
+                usuario.Length < 6 ||
+                clave_actual.Length < 6 ||
+                clave_nva1.Length < 6 ||
+                clave_nva2.Length < 6)
             {
                 if (string.IsNullOrEmpty(usuario))
                 {
                     errUsr.Visible = true;                                              // Marcar error en el campo de usuario
+                    errMsj1 = "* Completar datos obligatorios\r\n";
                 }
-                else if (usuario.Length < 8)
+                else if (usuario.Length < 6)
                 {
                     errUsr.Visible = true;                                              // Marcar error en el campo de usuario
-                    errMsj2 += "\r\n El usuario debe contener 8 o más caracteres";
+                    errMsjAd += "* El usuario debe contener 6 o más caracteres\r\n ";
                 }
 
                 if (string.IsNullOrEmpty(clave_actual))
                 {
                     errClaveActual.Visible = true;                                      // Marcar error en el campo de clave actual
+                    errMsj1 = "* Completar datos obligatorios\r\n";
                 }
-                else if (clave_actual.Length < 8)
+                else if (clave_actual.Length==0)
                 {
                     errClaveActual.Visible = true;                                      // Marcar error en el campo de clave actual
-                    errMsj2 += "\r\n La clave actual es incorrecta";
+                    errMsjAd += "* La clave actual es incorrecta\r\n ";
                 }
 
                 if (string.IsNullOrEmpty(clave_nva1))
                 {
                     errClaveNva1.Visible = true;                                        // Marcar error en el campo de clave nueva 1
+                    errMsj1 = "* Completar datos obligatorios\r\n";
                 }
-                else if (clave_nva1.Length < 8)
+                else if (clave_nva1.Length < 6)
                 {
                     errClaveNva1.Visible = true;                                        // Marcar error en el campo de clave nueva 1
-                    errMsj2 += "\r\n La clave nueva debe contener 8 o más caracteres";
+                    errMsjAd += "* La clave nueva debe contener 6 o más caracteres\r\n";
                 }
 
                 if (string.IsNullOrEmpty(clave_nva2))
                 {
                     errClaveNva2.Visible = true;                                        // Marcar error en el campo de clave nueva 2
+                    errMsj1 = "* Completar datos obligatorios\r\n";
                 }
                 else if (clave_nva2 != clave_nva1)
                 {
                     errClaveNva2.Visible = true;                                        // Marcar error en el campo de clave nueva 2
-                    errMsj2 += "\r\n La contraseña reingresada no coincide";
+                    errMsjAd += "* La contraseña reingresada no coincide\r\n";
                 }
 
-                errMsj.Text = "* Completar datos obligatorios" + errMsj2;               // Mostrar mensaje de error
+                errMsj.Text = errMsj1 + errMsjAd;                                       // Mostrar mensaje de error
                 errMsj.Visible = true;
             }
             //2. Si los datos superan las validaciones controlar que la clave no esté entre las últimas 3 ni la actual
@@ -127,14 +132,7 @@ namespace Facultad
                     errMsj.Text = "* Clave incorrecta";                                 // Mostrar mensaje de error
                     errMsj.Visible = true;
                 }
-                // 2.4. Si usuario y clave son correctos pero la nueva clave no coincide con la reingresada
-                else if (clave_nva1 != clave_nva2)
-                {
-                    errClaveNva2.Visible = true;                                        // Marcar error en el campo de clave nueva 2
-                    errMsj.Text = "* La contraseña reingresada no coincide";            // Mostrar mensaje de error
-                    errMsj.Visible = true;
-                }
-                // 2.5. Si la nueva clave coincide con la actual o las ultimas 3
+                // 2.4. Si la nueva clave coincide con la actual o las ultimas 3
                 else if (clave_nva1 == datos_usuario[1] ||
                     clave_nva1 == datos_usuario[6] ||
                     clave_nva1 == datos_usuario[7] ||
@@ -144,7 +142,7 @@ namespace Facultad
                     errMsj.Text = "* La nueva clave fue utilizada anteriormente";       // Mostrar mensaje de error
                     errMsj.Visible = true;
                 }
-                // 2.6. Si todo es correcto, cambia la clave,
+                // 2.5. Si todo es correcto, cambia la clave,
                 //      fechas de modificación y caducidad e intentos
                 //      y vuelve al login
                 else
