@@ -96,10 +96,58 @@ namespace Facultad.Entidades
             {
                 if (examen.Nota >= 4)
                 {
-                    salida.Add(examen.IdMateria);
+                    Boolean preexiste = false;
+                    foreach (int idRegistrado in salida)
+                    {
+                        if(idRegistrado == examen.IdMateria)
+                        {
+                            preexiste = true;
+                            break;
+                        }
+                    }
+                    if (!preexiste)
+                    {
+                        salida.Add(examen.IdMateria);
+                    }
                 }
             }
             return salida;
+        }
+
+        public List<String> MateriasDesregularizadas()
+        {
+            List<String> salida = new List<String>();
+
+            foreach (Examen examen in Examenes)
+            {
+                if (examen.Nota < 4)
+                {
+                    if(examen.Fecha < DateTime.Now.AddYears(-2))
+                    {
+                        salida.Add(examen.IdMateria.ToString()+" - "+BuscarNombreMateria(examen.IdMateria));
+                    }
+                }
+            }
+
+            return salida;
+        }
+
+        private String BuscarNombreMateria(int idMateria)
+        {
+            String salida = "";
+            foreach(Carrera carrera in Carreras)
+            {
+                foreach (Materia materia in carrera.Materias)
+                {
+                    if (materia.Id == idMateria)
+                    {
+                        salida = materia.Nombre;
+                        break;
+                    }
+                }
+            }
+            return salida;
+
         }
 
         public List<ReporteAlu1> Reporte1()

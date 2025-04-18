@@ -12,3 +12,4 @@ C:\DOC\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facult
 C:\DOC\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad_v2\Facultad\Facultad\obj\Debug\Facultad.CrearUsr.resources
 C:\DOC\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad_v2\Facultad\Facultad\obj\Debug\Facultad.FormAlumnos.resources
 C:\DOC\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad_v2\Facultad\Facultad\obj\Debug\Facultad.FormMenu.resources
+C:\DOC\FCE\2025-Q1 - 1654 - CAI\Practicas a GitHub\CAI-2025Q1\ejercicio01_facultad_v2\Facultad\Facultad\obj\Debug\Facultad.FormReportes.resources

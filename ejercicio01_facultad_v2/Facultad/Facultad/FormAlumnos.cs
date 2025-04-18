@@ -279,9 +279,10 @@ namespace Facultad
                     for (int i = 0; i < n; i++)
                     {
                         //Validar que la materia corresponda al idCarrera
-                        if (csvCarrera[0] == CarrerasDeMateria[i])
+                        if (csvCarrera[0] == CarrerasDeMateria[i].Trim())
                         {
                             listaMaterias.Add(materia);
+                            break;  
                         }
                     }
                 }

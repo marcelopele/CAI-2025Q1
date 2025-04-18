@@ -39,7 +39,7 @@
             this.btnSalir.Location = new System.Drawing.Point(59, 169);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(150, 23);
-            this.btnSalir.TabIndex = 5;
+            this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
@@ -49,7 +49,7 @@
             this.btnEmpleados.Location = new System.Drawing.Point(59, 66);
             this.btnEmpleados.Name = "btnEmpleados";
             this.btnEmpleados.Size = new System.Drawing.Size(150, 23);
-            this.btnEmpleados.TabIndex = 4;
+            this.btnEmpleados.TabIndex = 2;
             this.btnEmpleados.Text = "Empleados";
             this.btnEmpleados.UseVisualStyleBackColor = true;
             // 
@@ -58,7 +58,7 @@
             this.btnAlumnos.Location = new System.Drawing.Point(59, 36);
             this.btnAlumnos.Name = "btnAlumnos";
             this.btnAlumnos.Size = new System.Drawing.Size(150, 23);
-            this.btnAlumnos.TabIndex = 3;
+            this.btnAlumnos.TabIndex = 1;
             this.btnAlumnos.Text = "Alumnos";
             this.btnAlumnos.UseVisualStyleBackColor = true;
             this.btnAlumnos.Click += new System.EventHandler(this.btnAlumnos_Click);
@@ -68,7 +68,7 @@
             this.btnReportes.Location = new System.Drawing.Point(59, 113);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(150, 23);
-            this.btnReportes.TabIndex = 6;
+            this.btnReportes.TabIndex = 3;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.UseVisualStyleBackColor = true;
             this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
