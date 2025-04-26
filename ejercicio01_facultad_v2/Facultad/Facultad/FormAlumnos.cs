@@ -38,7 +38,7 @@ namespace Facultad
             foreach (String registro in listado)
             {
                 String[] aluRg = registro.Split(';');
-                List<Carrera> listaCarreras = CarrerasDelAlumno();
+                List<Carrera> listaCarreras = CarrerasDelAlumno(aluRg[4]);
                 List<Examen> listaExamenes = ExamenesDelAlumno(int.Parse(aluRg[0]));
                 Alumno alumno = new Alumno(aluRg, listaCarreras, listaExamenes);
                 lstAlumnos.Items.Add(alumno);
@@ -231,7 +231,7 @@ namespace Facultad
             //Validar que el alumno exista
             if (datos_alumno.Length != 0)
             {
-                List<Carrera> listaCarreras = CarrerasDelAlumno();
+                List<Carrera> listaCarreras = CarrerasDelAlumno(datos_alumno[4]);
                 List<Examen> listaExamenes = ExamenesDelAlumno(codigo);
 
                 salida = new Alumno(datos_alumno, listaCarreras, listaExamenes);
@@ -256,8 +256,9 @@ namespace Facultad
             return salida;
         }
 
-        private List<Carrera> CarrerasDelAlumno()
-        {   //se asume que todos los alumnos tienen todas las carreras
+        private List<Carrera> CarrerasDelAlumno(String carrerasAlu)
+        {
+            String[] CarrerasAlu = carrerasAlu.Split(',');
 
             List<Carrera> salida = new List<Carrera>();
             List<String> fileCarreras = pu.ListarArchivo("carreras.csv");
@@ -290,7 +291,14 @@ namespace Facultad
                 Carrera carrera = new Carrera(csvCarrera, listaMaterias);
 
                 //Validar que la carrera corresponda al idAlumo
-                salida.Add(carrera);
+                for (int i = 0; i < CarrerasAlu.Length; i++)
+                {
+                    if (CarrerasAlu[i].Trim() == csvCarrera[0])
+                    {
+                        salida.Add(carrera);
+                        break;
+                    }
+                }
             }
             return salida;
         }
@@ -339,7 +347,7 @@ namespace Facultad
                             newAluArr[2] = txtApellido.Text;
                             newAluArr[3] = txtFechaNac.Value.ToString("yyyy-MM-dd");
 
-                            listaCarreras = CarrerasDelAlumno();
+                            listaCarreras = CarrerasDelAlumno(newAluArr[4]);
                             listaExamenes = ExamenesDelAlumno(int.Parse(txtCodigo.Text));
 
                             Alumno newAlu = new Alumno(newAluArr, listaCarreras, listaExamenes);
@@ -371,7 +379,7 @@ namespace Facultad
                         updAluArr[2] = txtApellido.Text;
                         updAluArr[3] = txtFechaNac.Value.ToString("yyyy-MM-dd");
 
-                        listaCarreras = CarrerasDelAlumno();
+                        listaCarreras = CarrerasDelAlumno(updAluArr[4]);
                         listaExamenes = ExamenesDelAlumno(int.Parse(txtCodigo.Text));
 
                         Alumno updAlu = new Alumno(updAluArr, listaCarreras, listaExamenes);

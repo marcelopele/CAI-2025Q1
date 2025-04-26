@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\DOC\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad_v2\\Facultad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|c:\\doc\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad_v2\\facultad\\facultad\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|C:\\DOC\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad_v2\\Facultad\\facultad\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|c:\\doc\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad_v2\\facultad\\facultad\\entidades\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|c:\\doc\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad_v2\\facultad\\facultad\\entidades\\reportealu1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\reportealu1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|c:\\doc\\fce\\2025-q1 - 1654 - cai\\practicas a github\\cai-2025q1\\ejercicio01_facultad_v2\\facultad\\facultad\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|C:\\DOC\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad_v2\\Facultad\\facultad\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76421380-F59B-4170-9BB0-76C4E3585004}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,27 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\DOC\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad_v2\\Facultad\\Facultad\\Entidades\\Alumno.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Alumno.cs",
-              "ToolTip": "C:\\DOC\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad_v2\\Facultad\\Facultad\\Entidades\\Alumno.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Alumno.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Title": "ReporteAlu1.cs",
+              "DocumentMoniker": "C:\\DOC\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad_v2\\Facultad\\Facultad\\Entidades\\ReporteAlu1.cs",
+              "RelativeDocumentMoniker": "Facultad\\Entidades\\ReporteAlu1.cs",
+              "ToolTip": "C:\\DOC\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad_v2\\Facultad\\Facultad\\Entidades\\ReporteAlu1.cs",
+              "RelativeToolTip": "Facultad\\Entidades\\ReporteAlu1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:53:47.533Z",
+              "WhenOpened": "2025-04-20T22:53:36.742Z",
               "EditorCaption": ""
             },
             {
@@ -53,7 +49,7 @@
               "RelativeDocumentMoniker": "Facultad\\FormReportes.cs",
               "ToolTip": "C:\\DOC\\FCE\\2025-Q1 - 1654 - CAI\\Practicas a GitHub\\CAI-2025Q1\\ejercicio01_facultad_v2\\Facultad\\Facultad\\FormReportes.cs",
               "RelativeToolTip": "Facultad\\FormReportes.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAiwG8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T22:44:11.826Z",
               "EditorCaption": ""

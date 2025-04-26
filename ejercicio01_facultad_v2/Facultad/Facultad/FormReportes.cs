@@ -91,7 +91,7 @@ namespace Facultad
                 {
                     //Si el alumno del bucle tiene más de una carrera y más materias aprobadas que el elegido lo reemplaza
                     //en el Reporte1 la lista cointiene solo las carreras con materias aprobadas (asumiendo que esas son las carreras que está cursando)
-                    if (alu.Reporte1().Count > 1&& alu.MateriasAprobadas() > aluElegido.MateriasAprobadas())
+                    if (alu.Carreras.Count() > 1&& alu.MateriasAprobadas() > aluElegido.MateriasAprobadas())
                     {
                         aluElegido = alu;
                     }
@@ -149,7 +149,7 @@ namespace Facultad
             foreach (String registro in listado)
             {
                 String[] aluRg = registro.Split(';');
-                List<Carrera> listaCarreras = CarrerasDelAlumno();
+                List<Carrera> listaCarreras = CarrerasDelAlumno(aluRg[4]);
                 List<Examen> listaExamenes = ExamenesDelAlumno(int.Parse(aluRg[0]));
                 Alumno alumno = new Alumno(aluRg, listaCarreras, listaExamenes);
                 lstAlumnos.Add(alumno);
@@ -166,7 +166,7 @@ namespace Facultad
             //Validar que el alumno exista
             if (datos_alumno.Length != 0)
             {
-                List<Carrera> listaCarreras = CarrerasDelAlumno();
+                List<Carrera> listaCarreras = CarrerasDelAlumno(datos_alumno[4]);
                 List<Examen> listaExamenes = ExamenesDelAlumno(codigo);
 
                 salida = new Alumno(datos_alumno, listaCarreras, listaExamenes);
@@ -191,8 +191,9 @@ namespace Facultad
             return salida;
         }
 
-        private List<Carrera> CarrerasDelAlumno()
-        {   //se asume que todos los alumnos tienen todas las carreras
+        private List<Carrera> CarrerasDelAlumno(String carrerasAlu)
+            {
+            String[] CarrerasAlu = carrerasAlu.Split(',');
 
             List<Carrera> salida = new List<Carrera>();
             List<String> fileCarreras = pu.ListarArchivo("carreras.csv");
@@ -225,7 +226,14 @@ namespace Facultad
                 Carrera carrera = new Carrera(csvCarrera, listaMaterias);
 
                 //Validar que la carrera corresponda al idAlumo
-                salida.Add(carrera);
+                for (int i = 0; i < CarrerasAlu.Length; i++)
+                {
+                    if (CarrerasAlu[i].Trim() == csvCarrera[0])
+                    {
+                        salida.Add(carrera);
+                        break;
+                    }
+                }
             }
             return salida;
         }
